@@ -13,3 +13,4 @@ def driver():
     browser.get(URL)
     yield browser
     browser.quit()
+    
