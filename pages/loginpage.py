@@ -1,7 +1,6 @@
 from base.basedriver import Basedriver
 
 class Loginpage(Basedriver):
-    REGISTER_BTN = "//*[@class='header-links']//*[text()='Login']"
     EMAIL_FIELD = "//*[@id='Email']"
     PASSWORD_FIELD = "//*[@id='Password']"
     REMEMBER_ME_CHECKBOX = "//*[@id='RememberMe']"
@@ -31,7 +30,7 @@ class Loginpage(Basedriver):
     
     def click_on_login_btn(self):
         self.click_on_element(self.LOGIN_BTN)
-        
+
     
 
     
