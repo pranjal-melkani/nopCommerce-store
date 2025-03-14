@@ -7,7 +7,7 @@ class Loginpage(Basedriver):
     FORGOT_PASSWORD_BTN = "//*[contains(text(), 'Forgot password')]"
     LOGIN_BTN = "//button[text() = 'Log in']"
 
-    def __init__(self):
+    def __init__(self, driver):
         super().__init__(driver)
 
     def enter_email(self, email_id):
